@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Angelo">
+    <link rel="icon" href="img/stopwatch-solid.svg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
+
+    <title>Cronômetro</title>
+
+</head>
+<body>
+
+    <div id="stopwatch">
+
+        <h2 id="timer">00:00:00:00</h2>
+
+        <!--Botões-->
+        <div id="actions">
+            <button id="reset">
+                <i class="fa-solid fa-redo"></i> 
+            </button>
+            <button id="power" action="start">
+                <i class="fa-solid fa-play"></i>
+            </button>
+            <button id="mark">
+                <i class="fa-solid fa-flag"></i>
+            </button>
+        </div>
+
+        <!--Lista de marcação-->
+        <ul id="marks-list">
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
