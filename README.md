@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Pomodoro</h1>
+  <h1>Cronômetro</h1>
   <p>Este projeto de cronômetro oferece uma experiência prática e interativa.
   </p>
 </div>
